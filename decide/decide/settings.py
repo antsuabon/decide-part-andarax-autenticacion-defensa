@@ -76,7 +76,7 @@ MODULES = [
     'voting',
 ]
 
-BASEURL = 'https://decide-part-andarax.herokuapp.com'
+BASEURL = 'https://decide-part-andarax-auth.herokuapp.com'
 
 APIS = {
     'authentication': BASEURL,

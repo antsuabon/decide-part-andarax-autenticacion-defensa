@@ -232,6 +232,6 @@ if os.path.exists("config.jsonnet"):
 
 INSTALLED_APPS = INSTALLED_APPS + MODULES
 
-if BASEURL == 'https://decide-part-andarax.herokuapp.com':
+if BASEURL == 'https://decide-part-andarax-auth.herokuapp.com':
     import django_heroku
     django_heroku.settings(locals())

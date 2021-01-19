@@ -10,7 +10,7 @@ RUN pip install ipython
 
 WORKDIR /app
 
-RUN git clone https://github.com/decide-part-andarax-3/decide.git .
+RUN git clone https://github.com/antsuabon/decide-part-andarax-autenticacion-defensa.git .
 RUN pip install -r requirements.txt
 
 WORKDIR /app/decide
